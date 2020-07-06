@@ -1,27 +1,17 @@
 import 'package:flutter/foundation.dart';
 
 class CountryModel {
-//  private String[] topLevelDomain;
-//  private String[] callingCodes;
   final String capital;
   final String flag;
-//  private String[] altSpellings;
   final String name;
   final String region;
   final String subregion;
   final int population;
-//  private double[] latlng;
   final String demonym;
   final double area;
-//  private String[] timezones;
-//  private String[] borders;
   final String nativeName;
   final String numericCode;
   final String alpha2Code;
-//  private List<currencies> currencies;
-//  private List<languages> languages;
-  //final translations translations;
-//  private List<regionalBlocs> regionalBlocs;
 
   CountryModel({
     @required this.name,
@@ -53,27 +43,3 @@ class CountryModel {
     );
   }
 }
-
-/*
-
- private String name;
-    private String[] topLevelDomain;
-    private String[] callingCodes;
-    private String capital;
-    private String[] altSpellings;
-    private String region;
-    private String subregion;
-    private String population;
-    private double[] latlng;
-    private String demonym;
-    private double area;
-    private String[] timezones;
-    private String[] borders;
-    private String nativeName;
-    private String numericCode;
-    private String alpha2Code;
-    private List<currencies> currencies;
-    private List<languages> languages;
-    private translations translations;
-    private List<regionalBlocs> regionalBlocs;
- */

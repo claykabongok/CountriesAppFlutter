@@ -1,8 +1,7 @@
-import 'file:///D:/Project_2019/Local-Github/countries_app_flutter/lib/Widgets/ListCountries.dart';
-import 'package:countries_app_flutter/Widgets/ViewListCountries.dart';
-import 'package:flutter/material.dart';
+import 'package:countries_app_flutter/Widgets/ListCountries.dart';
 
-import '../ViewCountry.dart';
+import 'package:flutter/material.dart';
+import 'package:countries_app_flutter/Widgets/ViewCountry.dart';
 
 class RegionAfica extends StatelessWidget {
   @override
@@ -14,22 +13,6 @@ class RegionAfica extends StatelessWidget {
         onTap: () => Navigator.of(context).push(MaterialPageRoute(
           builder: (context) => ListCountries(regionName: "africa"),
         )),
-        // onTap: () {
-        //   /**
-        //    *
-        //    *   onTap: () => Navigator.of(context).push(MaterialPageRoute(
-        //                 builder: (context) => CountryDetails(
-        //                   countryModel: countryModel,
-        //                 ),
-        //               )),
-
-        //    * builder: (context) => CountryDetails(
-        //                 //   countryModel: countryModel,
-        //                 // ),
-
-        //    */
-        //   Navigator.of(context).pushNamed(ListCountries.routeName);
-        // },
         child: Column(
           children: <Widget>[
             Card(
